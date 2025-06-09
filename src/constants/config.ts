@@ -40,13 +40,13 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: "John Doe — 3D Portfolio",
-    fullName: "John Doe",
-    email: "johndoe@mail.com",
+    title: "Phillip Marress",
+    fullName: "Phillip Marress",
+    email: "marressp@gmail.com",
   },
   hero: {
-    name: "John Doe",
-    p: ["I develop 3D visuals, user", "interfaces and web applications"],
+    name: "Phillip",
+    p: ["Turning ideas and designs into dynamic, high performance web experiences - one pixel at a time."],
   },
   contact: {
     p: "Get in touch",
@@ -66,21 +66,19 @@ export const config: TConfig = {
   sections: {
     about: {
       p: "Introduction",
-      h2: "Overview.",
-      content: `I'm a skilled software developer with experience in TypeScript and
-      JavaScript, and expertise in frameworks like React, Node.js, and
-      Three.js. I'm a quick learner and collaborate closely with clients to
-      create efficient, scalable, and user-friendly solutions that solve
-      real-world problems. Let's work together to bring your ideas to life!`,
+      h2: "A little about me",
+      content: `I’m a software developer with a strong background in JavaScript and TypeScript with hands-on experience with frameworks like React, Node.js, and Three.js. I’m a fast learner who enjoys collaborating with clients and teams to build scalable, user-friendly solutions that solve real-world problems. I'm passionate about turning ideas into impactful digital experiences—let’s connect and create something great!
+
+`,
     },
     experience: {
       p: "What I have done so far",
       h2: "Work Experience.",
     },
-    feedbacks: {
-      p: "What others say",
-      h2: "Testimonials.",
-    },
+    // feedbacks: {
+    //   p: "What others say",
+    //   h2: "Testimonials.",
+    // },
     works: {
       p: "My work",
       h2: "Projects.",
